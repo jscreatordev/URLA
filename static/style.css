@@ -1,0 +1,13 @@
+/* Set the width and height of the logo */
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+/* Position the logo in the top-left corner */
+.logo img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+

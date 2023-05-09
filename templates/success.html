@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.png') }}">
+  <title>Shrtz</title>
+  <style>
+    /* Add some basic styling to the page */
+    body {
+      background-color: #f8f9fa;
+      color: #343a40;
+      font-family: sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      color: #007bff;
+      font-size: 36px;
+      font-weight: bold;
+      margin-top: 50px;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    p {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    a {
+      color: #007bff;
+    }
+  </style>
+</head>
+<body>
+  <h1>Success!</h1>
+  <p>Your shortened URL is:</p>
+  <p><a href="{{ request.host_url }}{{ short_url }}">{{ request.host_url }}{{ short_url }}</a></p>
+</body>
+  <div style="background-color: #007bff; color: white; text-align: center; padding: 5px;">
+  Made by <a href="https://repl.it/@XADEMX1" target="_blank" style="color: white;">XADEMX1</a>
+</div>
+
+</html>
