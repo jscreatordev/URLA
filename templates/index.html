@@ -2,21 +2,26 @@
 <html>
 <head>
   <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.png') }}">
-  <title>Shrtz</title>
+  <title>URLA</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link href="https://bouncecss.bookie0.repl.co/bounce.css" rel="stylesheet" type="text/css" />
   <style>
     body {
       background-color: #f5f5f5;
+      margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
     }
-    h1 {
+    h1{
       font-weight: bold;
       font-size: 36px;
-      text-align: center;
-      margin-top: 50px;
-      margin-bottom: 30px;
       color: #007bff;
+      
     }
     .logo {
       position: absolute;
@@ -27,12 +32,12 @@
     }
     form {
       max-width: 500px;
-      margin: 0 auto;
       background-color: white;
       padding: 30px;
       border-radius: 10px;
       box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
       margin-top: 80px; /* added margin to make space for the logo */
+      
     }
     label {
       font-weight: bold;
@@ -69,8 +74,6 @@
   </style>
 </head>
 <body>
-    <h1>Shrtz</h1>
-  <img src="{{ url_for('static', filename='logo.png') }}" alt="My Logo" class="logo">
 
   <form method="post" action="/shorten">
     <label>Enter the URL you want to shorten:</label>
@@ -90,8 +93,5 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
-  <div style="background-color: #007bff; color: white; text-align: center; padding: 10px;">
-  Made by <a href="https://repl.it/@XADEMX1" target="_blank" style="color: white;">XADEMX1</a>
-</div>
 
 </html>

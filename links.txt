@@ -1,0 +1,12 @@
+https://urla.repl.co/yt:http://youtube.com
+https://urla.repl.co/fb:http://facebook.com
+https://urla.repl.co/nflix:http://netflix.com
+https://urla.repl.co/az:http://amazon.com
+https://urla.repl.co/chatgpt:http://chat.openai.com
+https://urla.repl.co/is.gd:https://is.gd/
+https://urla.repl.co/urla:https://urla.urla.repl.co/shorten
+https://urla.repl.co/spacecore:https://discord.gg/yzFfnMBhHq
+https://urla.repl.co/fffff:https://www.youtube.com/watch?v=3GG4H8Ulj9M
+https://urla.repl.co/emc:https://eaffafwfawfhfuwffjiwfkm.jscreate.repl.co/
+https://urla.repl.co/google:http://google.com
+https://urla.repl.co/youtube.ocm:https://youtube.com

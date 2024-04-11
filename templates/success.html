@@ -2,6 +2,7 @@
 <html>
 <head>
   <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.png') }}">
+  <link href="https://bouncecss.bookie0.repl.co/bounce.css" rel="stylesheet" type="text/css" />
   <title>Shrtz</title>
   <style>
     /* Add some basic styling to the page */
@@ -12,7 +13,13 @@
       font-size: 16px;
       line-height: 1.5;
       margin: 0;
-      padding: 0;
+      padding: 0
+      margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
     }
 
     h1 {
@@ -38,9 +45,10 @@
   <h1>Success!</h1>
   <p>Your shortened URL is:</p>
   <p><a href="{{ request.host_url }}{{ short_url }}">{{ request.host_url }}{{ short_url }}</a></p>
+
+  <script>
+  </script>
 </body>
-  <div style="background-color: #007bff; color: white; text-align: center; padding: 5px;">
-  Made by <a href="https://repl.it/@XADEMX1" target="_blank" style="color: white;">XADEMX1</a>
 </div>
 
 </html>
